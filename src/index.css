@@ -5,9 +5,10 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
-  margin: 0;
-}
+  height: 100%;
+  background: linear-gradient(to bottom, #ffffff 50%, #c9c8cd 50%);
+  z-index: -10;
+} 
 
 *,
 *:before,
@@ -15,6 +16,8 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+
+
 
 /*
   A utility class to totally remove something from the screen,
@@ -30,3 +33,4 @@ body {
   padding: 0;
   border: 0;
 }
+
